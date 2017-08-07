@@ -1,0 +1,23 @@
+/* Element selector */
+body {
+    background-color: #aabbcc;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* class selector */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/* id selector */
+#circle {
+    color: chocolate;
+    font-size: 40px;
+}
