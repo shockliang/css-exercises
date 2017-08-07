@@ -1,23 +1,15 @@
-/* Element selector */
-body {
-    background-color: #aabbcc;
+.container {
+    background: linear-gradient(to right, #00ccff, #b3f0ff);
+    box-shadow: 3px 5px 3px black;
 }
 
+/* blur shadow */
 h1 {
-    color: red;
-    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
 }
 
-/* class selector */
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    margin: auto;
-}
-
-/* id selector */
-#circle {
-    color: chocolate;
-    font-size: 40px;
+h2 {
+    color: rgb(0, 123, 255);
+    text-shadow: 1px 1px 3px darkblue;
 }
