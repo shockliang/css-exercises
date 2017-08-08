@@ -11,15 +11,12 @@ body {
 */
 }
 
-/* blur shadow */
-h1 {
+/* blur shadow and grouping */
+h1, h2, h3 {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
-}
-
-h2 {
-    color: rgb(0, 123, 255);
-    text-shadow: 1px 1px 3px darkblue;
+    line-height: 1rem;
+    font-family: sans-serif;
 }
 
 .borderImg {
