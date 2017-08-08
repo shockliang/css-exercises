@@ -1,6 +1,14 @@
+body {
+    background-image: url(Rocket.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
+/*
     background: linear-gradient(to right, #00ccff, #b3f0ff);
     box-shadow: 3px 5px 3px black;
+*/
 }
 
 /* blur shadow */
@@ -12,4 +20,8 @@ h1 {
 h2 {
     color: rgb(0, 123, 255);
     text-shadow: 1px 1px 3px darkblue;
+}
+
+.borderImg {
+    border: 10px dashed red;
 }
