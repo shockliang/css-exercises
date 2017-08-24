@@ -191,6 +191,28 @@ input[type="text"] {
     overflow: hidden;
 }
 
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    color: white;
+    font-size: 25px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 /* Mobile */
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
@@ -236,6 +258,11 @@ input[type="text"] {
     .col-4 {
         width: 100%;
         margin: 0;
+    }
+    
+    div.mobileStack {
+        width: 50%;
+        display: block;
     }
     
     div.box {
