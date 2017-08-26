@@ -13,3 +13,14 @@ body.signin-block {
     -webki-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 }
+
+img.signin-image {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+}
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
+}
